@@ -22,7 +22,7 @@ namespace Prototipo
                 SqlCommand cmdSelect;
                 SqlDataAdapter adapter = new SqlDataAdapter();
 
-                string sentencia = @"Select * from EMPLEADO where Usuario = @idusuario and Contrasena = HASHBYTES('SHA1',@Con);";
+                string sentencia = @"Select * from EMPLEADO where Usuario = @idusuario and Contrasena = @Con;";
                 try
                 {
                     cmdSelect = new SqlCommand(sentencia, conexion);

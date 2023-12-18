@@ -300,7 +300,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Base de Datos\PeraShop.sql" />
-    <Content Include="Base de Datos\TiendaAbarrotes.sql" />
     <None Include="Resources\3.gif" />
     <None Include="Resources\5-removebg-preview.png" />
     <None Include="Resources\zyro-image.png" />

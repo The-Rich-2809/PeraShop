@@ -299,7 +299,12 @@
     <None Include="Resources\CampitosDyspo.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Base de Datos\PeraShop.sql" />
     <Content Include="Base de Datos\TiendaAbarrotes.sql" />
+    <None Include="Resources\3.gif" />
+    <None Include="Resources\5-removebg-preview.png" />
+    <None Include="Resources\zyro-image.png" />
+    <None Include="Resources\zyro-image-removebg-preview.png" />
     <None Include="Resources\pngtree-planets-on-a-purple-background-png-png-image_8402030.png" />
     <None Include="Resources\jjjjj.jpg" />
     <None Include="Resources\pixil-frame-0.png" />

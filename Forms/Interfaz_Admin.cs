@@ -29,7 +29,7 @@ namespace Entrega_Final
         }
         public struct Colores
         {
-            public static Color color1 = Color.FromArgb(255, 195, 0);
+            public static Color color1 = Color.FromArgb(135, 168, 84);
             public static Color color2 = Color.FromArgb(1, 154, 255);
             public static Color color3 = Color.MediumSlateBlue; 
             public static Color color4 = Color.FromArgb(0, 150, 54);

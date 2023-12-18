@@ -435,6 +435,11 @@ namespace Entrega_Final
             errorProvider1.SetError(Rep_Contraseña, "");
             errorProvider1.SetError(Cb_Nivel_User, "");
         }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 }

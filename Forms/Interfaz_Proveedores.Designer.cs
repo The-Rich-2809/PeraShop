@@ -63,6 +63,7 @@
             // Agregar_Mod
             // 
             this.Agregar_Mod.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.Agregar_Mod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.Agregar_Mod.Controls.Add(this.CmbDiaVisita);
             this.Agregar_Mod.Controls.Add(this.CmbDiaEntrega);
             this.Agregar_Mod.Controls.Add(this.Telefono);
@@ -81,16 +82,18 @@
             this.Agregar_Mod.Controls.Add(this.label7);
             this.Agregar_Mod.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Agregar_Mod.ForeColor = System.Drawing.Color.White;
-            this.Agregar_Mod.Location = new System.Drawing.Point(350, 387);
+            this.Agregar_Mod.Location = new System.Drawing.Point(311, 310);
+            this.Agregar_Mod.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Agregar_Mod.Name = "Agregar_Mod";
-            this.Agregar_Mod.Size = new System.Drawing.Size(1367, 378);
+            this.Agregar_Mod.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Agregar_Mod.Size = new System.Drawing.Size(1215, 302);
             this.Agregar_Mod.TabIndex = 17;
             this.Agregar_Mod.TabStop = false;
             this.Agregar_Mod.Text = "Editar";
             // 
             // CmbDiaVisita
             // 
-            this.CmbDiaVisita.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.CmbDiaVisita.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.CmbDiaVisita.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(154)))), ((int)(((byte)(255)))));
             this.CmbDiaVisita.BorderSize = 1;
             this.CmbDiaVisita.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
@@ -107,16 +110,17 @@
             "Domingo"});
             this.CmbDiaVisita.ListBackColor = System.Drawing.Color.DimGray;
             this.CmbDiaVisita.ListTextColor = System.Drawing.Color.White;
-            this.CmbDiaVisita.Location = new System.Drawing.Point(782, 194);
-            this.CmbDiaVisita.MinimumSize = new System.Drawing.Size(200, 30);
+            this.CmbDiaVisita.Location = new System.Drawing.Point(695, 155);
+            this.CmbDiaVisita.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CmbDiaVisita.MinimumSize = new System.Drawing.Size(178, 24);
             this.CmbDiaVisita.Name = "CmbDiaVisita";
             this.CmbDiaVisita.Padding = new System.Windows.Forms.Padding(1);
-            this.CmbDiaVisita.Size = new System.Drawing.Size(200, 30);
+            this.CmbDiaVisita.Size = new System.Drawing.Size(178, 24);
             this.CmbDiaVisita.TabIndex = 117;
             // 
             // CmbDiaEntrega
             // 
-            this.CmbDiaEntrega.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.CmbDiaEntrega.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.CmbDiaEntrega.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(154)))), ((int)(((byte)(255)))));
             this.CmbDiaEntrega.BorderSize = 1;
             this.CmbDiaEntrega.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDown;
@@ -133,31 +137,32 @@
             "Domingo"});
             this.CmbDiaEntrega.ListBackColor = System.Drawing.Color.DimGray;
             this.CmbDiaEntrega.ListTextColor = System.Drawing.Color.White;
-            this.CmbDiaEntrega.Location = new System.Drawing.Point(1005, 194);
-            this.CmbDiaEntrega.MinimumSize = new System.Drawing.Size(200, 30);
+            this.CmbDiaEntrega.Location = new System.Drawing.Point(893, 155);
+            this.CmbDiaEntrega.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.CmbDiaEntrega.MinimumSize = new System.Drawing.Size(178, 24);
             this.CmbDiaEntrega.Name = "CmbDiaEntrega";
             this.CmbDiaEntrega.Padding = new System.Windows.Forms.Padding(1);
-            this.CmbDiaEntrega.Size = new System.Drawing.Size(200, 30);
+            this.CmbDiaEntrega.Size = new System.Drawing.Size(178, 24);
             this.CmbDiaEntrega.TabIndex = 116;
             // 
             // Telefono
             // 
-            this.Telefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.Telefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.Telefono.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(154)))), ((int)(((byte)(255)))));
             this.Telefono.BorderFocusColor = System.Drawing.Color.HotPink;
             this.Telefono.BorderRadius = 0;
             this.Telefono.BorderSize = 2;
             this.Telefono.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Telefono.ForeColor = System.Drawing.Color.White;
-            this.Telefono.Location = new System.Drawing.Point(573, 185);
-            this.Telefono.Margin = new System.Windows.Forms.Padding(4);
+            this.Telefono.Location = new System.Drawing.Point(509, 148);
+            this.Telefono.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Telefono.Multiline = false;
             this.Telefono.Name = "Telefono";
-            this.Telefono.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.Telefono.Padding = new System.Windows.Forms.Padding(9, 6, 9, 6);
             this.Telefono.PasswordChar = false;
             this.Telefono.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.Telefono.PlaceholderText = "";
-            this.Telefono.Size = new System.Drawing.Size(168, 44);
+            this.Telefono.Size = new System.Drawing.Size(149, 38);
             this.Telefono.TabIndex = 24;
             this.Telefono.UnderlinedStyle = true;
             // 
@@ -171,9 +176,10 @@
             this.Btn_Cancelar.FlatAppearance.BorderSize = 0;
             this.Btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_Cancelar.ForeColor = System.Drawing.Color.White;
-            this.Btn_Cancelar.Location = new System.Drawing.Point(770, 241);
+            this.Btn_Cancelar.Location = new System.Drawing.Point(684, 193);
+            this.Btn_Cancelar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Cancelar.Name = "Btn_Cancelar";
-            this.Btn_Cancelar.Size = new System.Drawing.Size(150, 40);
+            this.Btn_Cancelar.Size = new System.Drawing.Size(133, 32);
             this.Btn_Cancelar.TabIndex = 20;
             this.Btn_Cancelar.Text = "Cancelar";
             this.Btn_Cancelar.TextColor = System.Drawing.Color.White;
@@ -182,22 +188,22 @@
             // 
             // Nombre_Encargado
             // 
-            this.Nombre_Encargado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.Nombre_Encargado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.Nombre_Encargado.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(154)))), ((int)(((byte)(255)))));
             this.Nombre_Encargado.BorderFocusColor = System.Drawing.Color.HotPink;
             this.Nombre_Encargado.BorderRadius = 0;
             this.Nombre_Encargado.BorderSize = 2;
             this.Nombre_Encargado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nombre_Encargado.ForeColor = System.Drawing.Color.White;
-            this.Nombre_Encargado.Location = new System.Drawing.Point(367, 185);
-            this.Nombre_Encargado.Margin = new System.Windows.Forms.Padding(4);
+            this.Nombre_Encargado.Location = new System.Drawing.Point(326, 148);
+            this.Nombre_Encargado.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Nombre_Encargado.Multiline = false;
             this.Nombre_Encargado.Name = "Nombre_Encargado";
-            this.Nombre_Encargado.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.Nombre_Encargado.Padding = new System.Windows.Forms.Padding(9, 6, 9, 6);
             this.Nombre_Encargado.PasswordChar = false;
             this.Nombre_Encargado.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.Nombre_Encargado.PlaceholderText = "";
-            this.Nombre_Encargado.Size = new System.Drawing.Size(167, 44);
+            this.Nombre_Encargado.Size = new System.Drawing.Size(148, 38);
             this.Nombre_Encargado.TabIndex = 23;
             this.Nombre_Encargado.UnderlinedStyle = true;
             // 
@@ -211,9 +217,10 @@
             this.Agregar_Proveedor.FlatAppearance.BorderSize = 0;
             this.Agregar_Proveedor.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Agregar_Proveedor.ForeColor = System.Drawing.Color.White;
-            this.Agregar_Proveedor.Location = new System.Drawing.Point(428, 241);
+            this.Agregar_Proveedor.Location = new System.Drawing.Point(380, 193);
+            this.Agregar_Proveedor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Agregar_Proveedor.Name = "Agregar_Proveedor";
-            this.Agregar_Proveedor.Size = new System.Drawing.Size(166, 40);
+            this.Agregar_Proveedor.Size = new System.Drawing.Size(148, 32);
             this.Agregar_Proveedor.TabIndex = 115;
             this.Agregar_Proveedor.Text = "Agregar Proveedor";
             this.Agregar_Proveedor.TextColor = System.Drawing.Color.White;
@@ -222,22 +229,22 @@
             // 
             // Nombre_Empresa
             // 
-            this.Nombre_Empresa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
+            this.Nombre_Empresa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
             this.Nombre_Empresa.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(154)))), ((int)(((byte)(255)))));
             this.Nombre_Empresa.BorderFocusColor = System.Drawing.Color.HotPink;
             this.Nombre_Empresa.BorderRadius = 0;
             this.Nombre_Empresa.BorderSize = 2;
             this.Nombre_Empresa.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Nombre_Empresa.ForeColor = System.Drawing.Color.White;
-            this.Nombre_Empresa.Location = new System.Drawing.Point(159, 185);
-            this.Nombre_Empresa.Margin = new System.Windows.Forms.Padding(4);
+            this.Nombre_Empresa.Location = new System.Drawing.Point(141, 148);
+            this.Nombre_Empresa.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Nombre_Empresa.Multiline = false;
             this.Nombre_Empresa.Name = "Nombre_Empresa";
-            this.Nombre_Empresa.Padding = new System.Windows.Forms.Padding(10, 7, 10, 7);
+            this.Nombre_Empresa.Padding = new System.Windows.Forms.Padding(9, 6, 9, 6);
             this.Nombre_Empresa.PasswordChar = false;
             this.Nombre_Empresa.PlaceholderColor = System.Drawing.Color.DarkGray;
             this.Nombre_Empresa.PlaceholderText = "";
-            this.Nombre_Empresa.Size = new System.Drawing.Size(166, 44);
+            this.Nombre_Empresa.Size = new System.Drawing.Size(148, 38);
             this.Nombre_Empresa.TabIndex = 22;
             this.Nombre_Empresa.UnderlinedStyle = true;
             // 
@@ -251,9 +258,10 @@
             this.Mod_Pro.FlatAppearance.BorderSize = 0;
             this.Mod_Pro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Mod_Pro.ForeColor = System.Drawing.Color.White;
-            this.Mod_Pro.Location = new System.Drawing.Point(600, 241);
+            this.Mod_Pro.Location = new System.Drawing.Point(533, 193);
+            this.Mod_Pro.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Mod_Pro.Name = "Mod_Pro";
-            this.Mod_Pro.Size = new System.Drawing.Size(164, 40);
+            this.Mod_Pro.Size = new System.Drawing.Size(146, 32);
             this.Mod_Pro.TabIndex = 19;
             this.Mod_Pro.Text = "Modificar Proveedor";
             this.Mod_Pro.TextColor = System.Drawing.Color.White;
@@ -267,9 +275,9 @@
             this.ID_Proveedor.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ID_Proveedor.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ID_Proveedor.ForeColor = System.Drawing.Color.White;
-            this.ID_Proveedor.Location = new System.Drawing.Point(471, 120);
+            this.ID_Proveedor.Location = new System.Drawing.Point(419, 96);
             this.ID_Proveedor.Name = "ID_Proveedor";
-            this.ID_Proveedor.Size = new System.Drawing.Size(28, 22);
+            this.ID_Proveedor.Size = new System.Drawing.Size(23, 19);
             this.ID_Proveedor.TabIndex = 114;
             this.ID_Proveedor.Text = "ID";
             // 
@@ -279,9 +287,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(569, 161);
+            this.label3.Location = new System.Drawing.Point(506, 129);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 20);
+            this.label3.Size = new System.Drawing.Size(64, 17);
             this.label3.TabIndex = 89;
             this.label3.Text = "Telefono";
             // 
@@ -291,9 +299,9 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(363, 120);
+            this.label6.Location = new System.Drawing.Point(323, 96);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(102, 20);
+            this.label6.Size = new System.Drawing.Size(91, 17);
             this.label6.TabIndex = 113;
             this.label6.Text = "ID Proveedor";
             // 
@@ -303,9 +311,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(363, 161);
+            this.label2.Location = new System.Drawing.Point(323, 129);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(172, 20);
+            this.label2.Size = new System.Drawing.Size(154, 17);
             this.label2.TabIndex = 87;
             this.label2.Text = "Nombre del Encargado";
             // 
@@ -315,9 +323,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(153, 108);
+            this.label4.Location = new System.Drawing.Point(136, 86);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(186, 32);
+            this.label4.Size = new System.Drawing.Size(163, 29);
             this.label4.TabIndex = 91;
             this.label4.Text = "Proveedores";
             // 
@@ -327,9 +335,9 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(778, 161);
+            this.label5.Location = new System.Drawing.Point(692, 129);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(98, 20);
+            this.label5.Size = new System.Drawing.Size(87, 17);
             this.label5.TabIndex = 92;
             this.label5.Text = "Día de Visita";
             // 
@@ -339,9 +347,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(154, 161);
+            this.label1.Location = new System.Drawing.Point(137, 129);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(171, 20);
+            this.label1.Size = new System.Drawing.Size(153, 17);
             this.label1.TabIndex = 85;
             this.label1.Text = "Nombre de la Empresa";
             // 
@@ -351,9 +359,9 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.White;
-            this.label7.Location = new System.Drawing.Point(1001, 161);
+            this.label7.Location = new System.Drawing.Point(890, 129);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(116, 20);
+            this.label7.Size = new System.Drawing.Size(103, 17);
             this.label7.TabIndex = 93;
             this.label7.Text = "Día de Entrega";
             // 
@@ -368,9 +376,10 @@
             this.Eliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Eliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Eliminar.ForeColor = System.Drawing.Color.White;
-            this.Eliminar.Location = new System.Drawing.Point(1118, 327);
+            this.Eliminar.Location = new System.Drawing.Point(994, 262);
+            this.Eliminar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Eliminar.Name = "Eliminar";
-            this.Eliminar.Size = new System.Drawing.Size(118, 40);
+            this.Eliminar.Size = new System.Drawing.Size(105, 32);
             this.Eliminar.TabIndex = 21;
             this.Eliminar.Text = "Eliminar";
             this.Eliminar.TextColor = System.Drawing.Color.White;
@@ -388,9 +397,10 @@
             this.Modificar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Modificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Modificar.ForeColor = System.Drawing.Color.White;
-            this.Modificar.Location = new System.Drawing.Point(996, 327);
+            this.Modificar.Location = new System.Drawing.Point(885, 262);
+            this.Modificar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Modificar.Name = "Modificar";
-            this.Modificar.Size = new System.Drawing.Size(116, 40);
+            this.Modificar.Size = new System.Drawing.Size(103, 32);
             this.Modificar.TabIndex = 20;
             this.Modificar.Text = "Modificar";
             this.Modificar.TextColor = System.Drawing.Color.White;
@@ -408,9 +418,10 @@
             this.Agregar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Agregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Agregar.ForeColor = System.Drawing.Color.White;
-            this.Agregar.Location = new System.Drawing.Point(874, 327);
+            this.Agregar.Location = new System.Drawing.Point(777, 262);
+            this.Agregar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Agregar.Name = "Agregar";
-            this.Agregar.Size = new System.Drawing.Size(116, 40);
+            this.Agregar.Size = new System.Drawing.Size(103, 32);
             this.Agregar.TabIndex = 19;
             this.Agregar.Text = "Agregar";
             this.Agregar.TextColor = System.Drawing.Color.White;
@@ -428,9 +439,10 @@
             this.Actualizar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Actualizar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Actualizar.ForeColor = System.Drawing.Color.White;
-            this.Actualizar.Location = new System.Drawing.Point(720, 327);
+            this.Actualizar.Location = new System.Drawing.Point(640, 262);
+            this.Actualizar.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Actualizar.Name = "Actualizar";
-            this.Actualizar.Size = new System.Drawing.Size(150, 40);
+            this.Actualizar.Size = new System.Drawing.Size(133, 32);
             this.Actualizar.TabIndex = 18;
             this.Actualizar.Text = "Actualizar";
             this.Actualizar.TextColor = System.Drawing.Color.White;
@@ -459,7 +471,8 @@
             this.Dgv_Proveedores.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.Dgv_Proveedores.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.Dgv_Proveedores.EnableHeadersVisualStyles = false;
-            this.Dgv_Proveedores.Location = new System.Drawing.Point(12, 12);
+            this.Dgv_Proveedores.Location = new System.Drawing.Point(11, 10);
+            this.Dgv_Proveedores.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Dgv_Proveedores.Name = "Dgv_Proveedores";
             this.Dgv_Proveedores.ReadOnly = true;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -477,21 +490,22 @@
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
             this.Dgv_Proveedores.RowsDefaultCellStyle = dataGridViewCellStyle3;
             this.Dgv_Proveedores.RowTemplate.Height = 28;
-            this.Dgv_Proveedores.Size = new System.Drawing.Size(1965, 309);
+            this.Dgv_Proveedores.Size = new System.Drawing.Size(1747, 247);
             this.Dgv_Proveedores.TabIndex = 22;
             // 
             // Interfaz_Proveedores
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(1989, 876);
+            this.ClientSize = new System.Drawing.Size(1768, 701);
             this.Controls.Add(this.Dgv_Proveedores);
             this.Controls.Add(this.Eliminar);
             this.Controls.Add(this.Modificar);
             this.Controls.Add(this.Agregar);
             this.Controls.Add(this.Actualizar);
             this.Controls.Add(this.Agregar_Mod);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Interfaz_Proveedores";
             this.Text = "Interfaz_Proveedores";
             this.Load += new System.EventHandler(this.Interfaz_Proveedores_Load);

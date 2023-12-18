@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Interfaz_Em));
             this.Panel_Controles = new System.Windows.Forms.Panel();
             this.Btn_VentasR = new FontAwesome.Sharp.IconButton();
             this.IcoUsuario = new FontAwesome.Sharp.IconPictureBox();
@@ -54,9 +53,9 @@
             this.Panel_Controles.Controls.Add(this.panel2);
             this.Panel_Controles.Dock = System.Windows.Forms.DockStyle.Top;
             this.Panel_Controles.Location = new System.Drawing.Point(0, 0);
-            this.Panel_Controles.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Panel_Controles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Panel_Controles.Name = "Panel_Controles";
-            this.Panel_Controles.Size = new System.Drawing.Size(1924, 138);
+            this.Panel_Controles.Size = new System.Drawing.Size(1710, 110);
             this.Panel_Controles.TabIndex = 0;
             // 
             // Btn_VentasR
@@ -70,10 +69,11 @@
             this.Btn_VentasR.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.Btn_VentasR.IconSize = 60;
             this.Btn_VentasR.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_VentasR.Location = new System.Drawing.Point(410, 0);
+            this.Btn_VentasR.Location = new System.Drawing.Point(364, 0);
+            this.Btn_VentasR.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_VentasR.Name = "Btn_VentasR";
-            this.Btn_VentasR.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.Btn_VentasR.Size = new System.Drawing.Size(250, 138);
+            this.Btn_VentasR.Padding = new System.Windows.Forms.Padding(9, 0, 18, 0);
+            this.Btn_VentasR.Size = new System.Drawing.Size(222, 110);
             this.Btn_VentasR.TabIndex = 16;
             this.Btn_VentasR.Text = "Ventas Realizadas";
             this.Btn_VentasR.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -87,11 +87,11 @@
             this.IcoUsuario.IconChar = FontAwesome.Sharp.IconChar.User;
             this.IcoUsuario.IconColor = System.Drawing.Color.White;
             this.IcoUsuario.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.IcoUsuario.IconSize = 98;
-            this.IcoUsuario.Location = new System.Drawing.Point(1018, 18);
-            this.IcoUsuario.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.IcoUsuario.IconSize = 78;
+            this.IcoUsuario.Location = new System.Drawing.Point(905, 14);
+            this.IcoUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.IcoUsuario.Name = "IcoUsuario";
-            this.IcoUsuario.Size = new System.Drawing.Size(110, 98);
+            this.IcoUsuario.Size = new System.Drawing.Size(98, 78);
             this.IcoUsuario.TabIndex = 14;
             this.IcoUsuario.TabStop = false;
             // 
@@ -100,9 +100,9 @@
             this.Usuario.AutoSize = true;
             this.Usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Usuario.ForeColor = System.Drawing.Color.White;
-            this.Usuario.Location = new System.Drawing.Point(1176, 32);
+            this.Usuario.Location = new System.Drawing.Point(1045, 26);
             this.Usuario.Name = "Usuario";
-            this.Usuario.Size = new System.Drawing.Size(152, 55);
+            this.Usuario.Size = new System.Drawing.Size(126, 46);
             this.Usuario.TabIndex = 15;
             this.Usuario.Text = "label1";
             // 
@@ -117,10 +117,11 @@
             this.Btn_Ventas.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.Btn_Ventas.IconSize = 60;
             this.Btn_Ventas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_Ventas.Location = new System.Drawing.Point(160, 0);
+            this.Btn_Ventas.Location = new System.Drawing.Point(142, 0);
+            this.Btn_Ventas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Ventas.Name = "Btn_Ventas";
-            this.Btn_Ventas.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.Btn_Ventas.Size = new System.Drawing.Size(250, 138);
+            this.Btn_Ventas.Padding = new System.Windows.Forms.Padding(9, 0, 18, 0);
+            this.Btn_Ventas.Size = new System.Drawing.Size(222, 110);
             this.Btn_Ventas.TabIndex = 6;
             this.Btn_Ventas.Text = "Ventas";
             this.Btn_Ventas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -139,10 +140,11 @@
             this.Btn_Salir.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.Btn_Salir.IconSize = 60;
             this.Btn_Salir.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.Btn_Salir.Location = new System.Drawing.Point(1674, 0);
+            this.Btn_Salir.Location = new System.Drawing.Point(1488, 0);
+            this.Btn_Salir.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Salir.Name = "Btn_Salir";
-            this.Btn_Salir.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
-            this.Btn_Salir.Size = new System.Drawing.Size(250, 138);
+            this.Btn_Salir.Padding = new System.Windows.Forms.Padding(9, 0, 18, 0);
+            this.Btn_Salir.Size = new System.Drawing.Size(222, 110);
             this.Btn_Salir.TabIndex = 10;
             this.Btn_Salir.Text = "Salir";
             this.Btn_Salir.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -155,17 +157,19 @@
             this.panel2.Controls.Add(this.Btn_Home);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
+            this.panel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(160, 138);
+            this.panel2.Size = new System.Drawing.Size(142, 110);
             this.panel2.TabIndex = 5;
             // 
             // Btn_Home
             // 
             this.Btn_Home.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Btn_Home.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Home.Image")));
+            this.Btn_Home.Image = global::Entrega_Final.Properties.Resources.zyro_image_removebg_preview;
             this.Btn_Home.Location = new System.Drawing.Point(0, 0);
+            this.Btn_Home.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Btn_Home.Name = "Btn_Home";
-            this.Btn_Home.Size = new System.Drawing.Size(160, 138);
+            this.Btn_Home.Size = new System.Drawing.Size(142, 110);
             this.Btn_Home.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Btn_Home.TabIndex = 2;
             this.Btn_Home.TabStop = false;
@@ -175,20 +179,21 @@
             // 
             this.Form_Sec.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
             this.Form_Sec.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Form_Sec.Location = new System.Drawing.Point(0, 138);
+            this.Form_Sec.Location = new System.Drawing.Point(0, 110);
+            this.Form_Sec.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Form_Sec.Name = "Form_Sec";
-            this.Form_Sec.Size = new System.Drawing.Size(1924, 924);
+            this.Form_Sec.Size = new System.Drawing.Size(1710, 740);
             this.Form_Sec.TabIndex = 2;
             // 
             // Interfaz_Em
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.ClientSize = new System.Drawing.Size(1924, 1062);
+            this.ClientSize = new System.Drawing.Size(1710, 850);
             this.Controls.Add(this.Form_Sec);
             this.Controls.Add(this.Panel_Controles);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Interfaz_Em";
             this.Text = "Interfaz_Em";
             this.Load += new System.EventHandler(this.Interfaz_Em_Load);

@@ -20,7 +20,7 @@ namespace Entrega_Final
             //(localdb)\MSSQLLocalDB Conexion pruebas
             CadenaConexion.DataSource = @"(localdb)\MSSQLLocalDB";
             CadenaConexion.IntegratedSecurity = true;
-            CadenaConexion.InitialCatalog = "TiendaAbarrotes";           
+            CadenaConexion.InitialCatalog = "PeraShop";           
             conexion = new SqlConnection(CadenaConexion.ConnectionString);
             return conexion;
         }
